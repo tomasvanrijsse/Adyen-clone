@@ -1,3 +1,3 @@
-# Uber-clone
+# Adyen-clone
 
-Rebuild the Uber homepage using HTML, CSS and frameworks.
+Rebuild the Adyen homepage using HTML, CSS and frameworks.
