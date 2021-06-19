@@ -1,143 +1,32 @@
-@font-face {
-    font-family: "Book";
-    font-display: fallback;
-    src: url("https://d3i4yxtzktqr9n.cloudfront.net/uber-sites/de4f9f45360546558603240415ca8fe0.woff2") format("woff2"), url("https://d3i4yxtzktqr9n.cloudfront.net/uber-sites/d653c2362d30a7990b79757794beac32.woff") format("woff");
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
-@font-face {
-    font-family: "NarrowBook";
-    font-display: fallback;
-    src: url("https://d3i4yxtzktqr9n.cloudfront.net/uber-sites/ec00e8fe408a3ea0a5e0fa9621888fb8.woff2") format("woff2"), url("https://d3i4yxtzktqr9n.cloudfront.net/uber-sites/f7974b0d6e7e80218fbf1c16c3dd5491.woff") format("woff");
-}
-
-@font-face {
-    font-family: "Medium";
-    font-display: fallback;
-    src: url("https://d3i4yxtzktqr9n.cloudfront.net/uber-sites/ddf7da5ca17eb0b4fc9f996878d0e2b1.woff2") format("woff2"), url("https://d3i4yxtzktqr9n.cloudfront.net/uber-sites/bf65185a602324c22303e9b93969bb78.woff") format("woff");
-}
-
-@font-face {
-    font-family: "NarrowMedium";
-    font-display: fallback;
-    src: url("https://d3i4yxtzktqr9n.cloudfront.net/uber-sites/0280a4b98e9c0153ba42ef288ae56224.woff2") format("woff2"), url("https://d3i4yxtzktqr9n.cloudfront.net/uber-sites/f93ff6529ecac655ac881f0d94933c4e.woff") format("woff");
-}
-
-@font-face {
-    font-family: "News";
-    font-display: fallback;
-    src: url("https://d3i4yxtzktqr9n.cloudfront.net/uber-sites/0b098bad3f46b67bc4d92b3b032eb160.woff2") format("woff2"), url("https://d3i4yxtzktqr9n.cloudfront.net/uber-sites/b5dd61bf6171d7dc0f5b6a7a3a8da8d1.woff") format("woff");
-}
-
-@font-face {
-    font-family: "NarrowNews";
-    font-display: fallback;
-    src: url("https://d3i4yxtzktqr9n.cloudfront.net/uber-sites/cf064fafd1ddf5bf461c5d9b39ae16c7.woff2") format("woff2"), url("https://d3i4yxtzktqr9n.cloudfront.net/uber-sites/aa9c793a91e777efa3b9873115890ad3.woff") format("woff");
-}
-
-@font-face {
-    font-family: "Thin";
-    font-display: fallback;
-    src: url("https://d3i4yxtzktqr9n.cloudfront.net/uber-sites/f5834755e3fae7cb44b8ab4c28d7b81f.woff2") format("woff2"), url("https://d3i4yxtzktqr9n.cloudfront.net/uber-sites/ad80a212a3af3379f308c7ab4d3fdd16.woff") format("woff");
-}
-
-@font-face {
-    font-family: "NarrowThin";
-    font-display: fallback;
-    src: url("https://d3i4yxtzktqr9n.cloudfront.net/uber-sites/0341f5159970f6c20d2d5d7ae98a6451.woff2") format("woff2"), url("https://d3i4yxtzktqr9n.cloudfront.net/uber-sites/4e6bd934dca86c97c5bb96e127565ad9.woff") format("woff");
-}
-
-html,
-body,
-#root {
-    min-height: 100%;
-}
-
-html {
-    font-family: sans-serif;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+.navbar-brand {
+    margin: 0;
+    padding: 0;
+    height: 50px;
 }
 
 body {
-    margin: 0;
-}
-
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-    border: 0;
-    padding: 0;
-}
-
-input::-webkit-inner-spin-button,
-input::-webkit-outer-spin-button,
-input::-webkit-search-cancel-button,
-input::-webkit-search-decoration,
-input::-webkit-search-results-button,
-input::-webkit-search-results-decoration {
-    display: none;
-}
-
-@font-face {
-    font-family: 'UberMove';
-    src: url('https://d1a3f4spazzrp4.cloudfront.net/dotcom-assets/fonts/UberMove-Light.woff2') format('woff2'), url('https://d1a3f4spazzrp4.cloudfront.net/dotcom-assets/fonts/UberMove-Light.woff') format('woff');
-    font-weight: 200;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'UberMove';
-    src: url('https://d1a3f4spazzrp4.cloudfront.net/dotcom-assets/fonts/UberMove-Regular.woff2') format('woff2'), url('https://d1a3f4spazzrp4.cloudfront.net/dotcom-assets/fonts/UberMove-Regular.woff') format('woff');
+    color: #00112c;
+    font-family: "Fakt", sans-serif, Helvetica, Arial;
+    font-size: 16px;
     font-weight: 400;
-    font-style: normal;
-    font-display: swap;
+    line-height: 26px;
+    -webkit-font-smoothing: antialiased;
+    flex-direction: column;
+    background-color: #fff;
 }
 
-@font-face {
-    font-family: 'UberMove';
-    src: url('https://d1a3f4spazzrp4.cloudfront.net/dotcom-assets/fonts/UberMove-Medium.woff2') format('woff2'), url('https://d1a3f4spazzrp4.cloudfront.net/dotcom-assets/fonts/UberMove-Medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
+.fa {
+    color: black;
 }
 
-@font-face {
-    font-family: 'UberMove';
-    src: url('https://d1a3f4spazzrp4.cloudfront.net/dotcom-assets/fonts/UberMove-Bold.woff2') format('woff2'), url('https://d1a3f4spazzrp4.cloudfront.net/dotcom-assets/fonts/UberMove-Bold.woff') format('woff');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'UberMoveText';
-    src: url('https://d1a3f4spazzrp4.cloudfront.net/dotcom-assets/fonts/UberMoveText-Light.woff2') format('woff2'), url('https://d1a3f4spazzrp4.cloudfront.net/dotcom-assets/fonts/UberMoveText-Light.woff') format('woff');
-    font-weight: 200;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'UberMoveText';
-    src: url('https://d1a3f4spazzrp4.cloudfront.net/dotcom-assets/fonts/UberMoveText-Regular.woff2') format('woff2'), url('https://d1a3f4spazzrp4.cloudfront.net/dotcom-assets/fonts/UberMoveText-Regular.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'UberMoveText';
-    src: url('https://d1a3f4spazzrp4.cloudfront.net/dotcom-assets/fonts/UberMoveText-Medium.woff2') format('woff2'), url('https://d1a3f4spazzrp4.cloudfront.net/dotcom-assets/fonts/UberMoveText-Medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'UberMoveText';
-    src: url('https://d1a3f4spazzrp4.cloudfront.net/dotcom-assets/fonts/UberMoveText-Bold.woff2') format('woff2'), url('https://d1a3f4spazzrp4.cloudfront.net/dotcom-assets/fonts/UberMoveText-Bold.woff') format('woff');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
+@media (min-width: 1200px) {
+    .container {
+        max-width: 970px;
+    }
 }
